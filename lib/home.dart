@@ -15,7 +15,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(title: const Text("Re-Captcha Apps")),
       body: Column(
-        children: [
+        children: <Widget>[
           ElevatedButton(
               onPressed: () {
                 CaptachaDialog.show(
